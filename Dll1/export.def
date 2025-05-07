@@ -1,0 +1,38 @@
+LIBRARY
+	EXPORTS
+		ExpGetModuleBase  = Api_GetModuleBase
+		ExpGetPidByName  = Api_GetPidByName
+		ExpReadProcMemory  = Api_ReadProcMemory
+		ExpWriteProcMemory  = Api_WriteProcMemory
+		ExpQueryMemInfo = Api_QueryMemInfo
+		ExpRemoteCall  = Api_RemoteCall
+		ExpGetExpFuncAddrOfProcModule  = Api_GetExpFuncAddrOfProcModule
+		ExpAllocaProcMemory  = Api_AllocaProcMemory
+		ExpFreeProcMemory  = Api_FreeProcMemory
+		ExpLoadDriver  = Api_LoadDriver
+		ExpFindProcSignCode  = Api_FindProcSignCode
+		ExpHideProcessByPid  = Api_HideProcessByPid
+		ExpDeleteFileForce  = Api_DeleteFileForce
+		ExpGetLastSysErrCode = Api_GetLastSysErrCode
+		
+		
+		
+		ExpKmInstall  = Api_KmInstall
+		ExpKmKeyDown  = Api_KmKeyDown
+		ExpKmKeyUp  = Api_KmKeyUp
+		ExpKmMouseLeftDown  = Api_KmMouseLeftDown
+		ExpKmMouseLeftUp  = Api_KmMouseLeftUp
+		ExpKmMouseRightDown  = Api_KmMouseRightDown
+		ExpKmMouseRightUp  = Api_KmMouseRightUp
+		ExpKmMouseMoveRelative  = Api_KmMouseMoveRelative
+		ExpKmMouseMoveTo  = Api_KmMouseMoveTo
+
+		ExpDwmDrInit = Api_DwmDrInit
+		ExpDwmDrStartDraw = Api_DwmDrStartDraw
+		ExpDwmDrEndDraw = Api_DwmDrEndDraw
+		ExpDwmDrDrawBox = Api_DwmDrDrawBox
+		ExpDwmDrDrawLine = Api_DwmDrDrawLine
+		ExpDwmDrDrawString = Api_DwmDrDrawString
+		ExpDwmDrDrawCircle = Api_DwmDrDrawCircle
+		ExpDwmDrDrawStrokeText = Api_DwmDrDrawStrokeText
+		ExpDwmDrDrawCornerframe = Api_DwmDrDrawCornerframe

@@ -1,0 +1,7 @@
+EXPORTS 
+	ExpLoadPdbFile
+	ExpUnLoadPdbFile
+	ExpGetRvaBySymbolName
+	ExpGetSymbolNameByRva
+	ExpDownloadPdbTo
+	ExpGetMemberOffsetOfStruct

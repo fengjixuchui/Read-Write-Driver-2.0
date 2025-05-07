@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Comm">
+      <UniqueIdentifier>{89793dec-8cd9-47ca-a4ca-d75a1db93c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Comm">
+      <UniqueIdentifier>{67b38068-bd39-40f9-b38c-09de8a54175b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kmclass">
+      <UniqueIdentifier>{e78e2581-a8d1-4944-bd80-8d6abc4e464d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kmclass">
+      <UniqueIdentifier>{cc973ec0-3b0f-44f2-9e8e-0de1f89bfaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\olds">
+      <UniqueIdentifier>{8ac50dfa-6122-4ca9-8dce-158c62977451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\signcode">
+      <UniqueIdentifier>{253d5e46-d52a-4fd4-af49-d0a219daceee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\signcode">
+      <UniqueIdentifier>{072f9def-2bcb-4cc5-9917-89360f9bd845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inject">
+      <UniqueIdentifier>{7ad35f1e-2352-464c-b7a9-3d5de0d1e012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\inject">
+      <UniqueIdentifier>{3070f712-1e46-4a14-b71e-5b04c7f48dc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReadWrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comm.c">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_win7.c">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_win10.c">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="krtools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_win11.c">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="prockr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmtool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="errorCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prockrstruct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="petool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filetool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kmclass.c">
+      <Filter>Source Files\kmclass</Filter>
+    </ClCompile>
+    <ClCompile Include="key.c">
+      <Filter>Source Files\kmclass</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.c">
+      <Filter>Source Files\kmclass</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_signcode.c">
+      <Filter>Source Files\signcode</Filter>
+    </ClCompile>
+    <ClCompile Include="krtools_signcode.c">
+      <Filter>Source Files\signcode</Filter>
+    </ClCompile>
+    <ClCompile Include="oldMem_可用.c">
+      <Filter>Source Files\olds</Filter>
+    </ClCompile>
+    <ClCompile Include="vadtools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmtools_signcode.c">
+      <Filter>Source Files\signcode</Filter>
+    </ClCompile>
+    <ClCompile Include="dwmhook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="symtool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="errorCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comm.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_win7.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_win10.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="krtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_win11.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="prockr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="procstruct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="petool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="filetool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kmclass.h">
+      <Filter>Header Files\kmclass</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_signcode.h">
+      <Filter>Header Files\signcode</Filter>
+    </ClInclude>
+    <ClInclude Include="krtools_signcode.h">
+      <Filter>Header Files\signcode</Filter>
+    </ClInclude>
+    <ClInclude Include="vadtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmtools_signcode.h">
+      <Filter>Header Files\signcode</Filter>
+    </ClInclude>
+    <ClInclude Include="dwmhook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="symtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
